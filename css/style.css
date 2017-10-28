@@ -32,7 +32,7 @@ div.head{
   background-color: yellow;
 }
 body{
-  background-image: url("../img/rainbow.jpg");
+  background-image: url("../img/rainbow-2.jpg");
   background-repeat: no-repeat;
 }
 .sign-up{
@@ -95,14 +95,14 @@ select{
   float: left;
   width: 3em;
   height: 2em;
-  margin-top: 2.2em;
+  margin-top: 2.7em;
   margin-left: 3.25em;
 }
 button{
   float: left;
   width: 20em;
   height: 3em;
-  margin-top: 1em;
+  margin-top: 0.2em;
   margin-left: 2em;
   background: white;
   border:white;
@@ -138,13 +138,13 @@ div.radio{
   text-align: center;
   font-family: Schoolbell;
   width: 385px;
-  height: 150px;
+  height: 170px;
 }
 .social{
   display: inline-block;
   position: absolute;
   width: 12%;
-  height:17%;
+  height:19%;
   top: 48em;
   left: 3em;
   text-align: center;
@@ -159,7 +159,7 @@ div.blog-head{
   margin-right: auto;
   left: 0;
   right: 0;
-  background-color: green;
+  background-color: orange;
   color: white;
   text-align: center;
   font-family: Schoolbell;
@@ -189,7 +189,7 @@ div.blog{
 }
 h2{
   margin-bottom: 0px;
-  line-height: 0em;
+  /*line-height: 0em;*/
 }
 p{
   margin-bottom: 2em;
@@ -198,9 +198,361 @@ p{
 }
 .footer{
   position: relative;
-  top: 84em;
+  top: 92em;
   right: 0;
   bottom: 0;
   left: 0;
   text-align: center;
+}
+
+/*Small Screen View*/
+@media (min-width: 768px) and (max-width: 917px){
+
+.sign-up{
+  width: 385px;
+  height: 400px;
+  background-color: dodgerblue;
+  position: absolute;
+  top: 10em;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-family: Schoolbell;
+  color: white;
+}
+input{
+  background-color:white;
+  color: red;
+}
+.fname{
+  float: left;
+  width: 10em;
+  height: 2.5em;
+  margin-top: 2em;
+  margin-left: 1em;
+  text-align: center;
+}
+.lname{
+  float:left;
+  width: 10em;
+  height: 2.5em;
+  margin-top: 2em;
+  margin-left: 2em;
+  text-align: center;
+}
+.phone{
+  float: left;
+  width: 10em;
+  height: 2.5em;
+  margin-top: 1.5em;
+  margin-left: 1em;
+  text-align: center;
+}
+.email{
+  float: left;
+  width: 10em;
+  height: 2.5em;
+  margin-top: 1.5em;
+  margin-left: 2em;
+  text-align: center;
+}
+.sign-up p{
+  float: left;
+  color: white;
+  font-size: 17px;
+  margin-top: 2.4em;
+  margin-left: 1.5em;
+}
+select{
+  background-color: white;
+  color: darkslategray;
+  float: left;
+  width: 3em;
+  height: 2em;
+  margin-top: 2.7em;
+  margin-left: 3.25em;
+}
+button{
+  float: left;
+  width: 20em;
+  height: 3em;
+  margin-top: 0.2em;
+  margin-left: 2em;
+  background: white;
+  border:white;
+  color: darkslategray;
+  font-family: Schoolbell;
+}
+.photos{
+  position: absolute;
+  width: 43%;
+  height: auto;
+  background-color: whitesmoke;
+  top: 36em;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-family: Schoolbell;
+  color: violet;
+  border: 5px solid darkblue;
+}
+.photos img{
+  width: 35%;
+  height: auto;
+  padding-bottom: 1em;
+}
+div.radio{
+  display: inline-block;
+  position: absolute;
+  top: 63em;
+}
+.radio{
+  background-color: aqua;
+  color: orangered;
+  text-align: center;
+  font-family: Schoolbell;
+  width: 40%;
+  height: 21%;
+  margin-left: 12em;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+}
+div.blog-head{
+  display: inline-block;
+  position: absolute;
+  top: 76.5em;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  background-color: orange;
+  color: white;
+  text-align: center;
+  font-family: Schoolbell;
+  width: 70%;
+  height: auto;
+}
+div.blog{
+  display: inline-block;
+  position: absolute;
+  top: 82em;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+}
+h2{
+  margin-bottom: 0.5em;
+}
+p{
+  margin: 0;
+  margin-bottom: 2em;
+  padding: 0.5em;
+  color: black;
+}
+div.social{
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+}
+.social{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 20%;
+  height:6%;
+  top: 121em;
+  left: 3em;
+  text-align: center;
+  background-color: navy;
+  color: white;
+}
+.social h2{
+  display: none;
+}
+.footer{
+  position: relative;
+  top: 127em;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  }
+}
+
+/*Phone View*/
+@media (max-width: 767px){
+
+  .sign-up{
+    width: 385px;
+    height: 400px;
+    background-color: dodgerblue;
+    position: absolute;
+    top: 10em;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-family: Schoolbell;
+    color: white;
+  }
+  input{
+    background-color:white;
+    color: red;
+  }
+  .fname{
+    float: left;
+    width: 10em;
+    height: 2.5em;
+    margin-top: 2em;
+    margin-left: 1em;
+    text-align: center;
+  }
+  .lname{
+    float:left;
+    width: 10em;
+    height: 2.5em;
+    margin-top: 2em;
+    margin-left: 2em;
+    text-align: center;
+  }
+  .phone{
+    float: left;
+    width: 10em;
+    height: 2.5em;
+    margin-top: 1.5em;
+    margin-left: 1em;
+    text-align: center;
+  }
+  .email{
+    float: left;
+    width: 10em;
+    height: 2.5em;
+    margin-top: 1.5em;
+    margin-left: 2em;
+    text-align: center;
+  }
+  .sign-up p{
+    float: left;
+    color: white;
+    font-size: 17px;
+    margin-top: 2.4em;
+    margin-left: 1.5em;
+  }
+  select{
+    background-color: white;
+    color: darkslategray;
+    float: left;
+    width: 3em;
+    height: 2em;
+    margin-top: 2.7em;
+    margin-left: 3.25em;
+  }
+  button{
+    float: left;
+    width: 20em;
+    height: 3em;
+    margin-top: 0.2em;
+    margin-left: 2em;
+    background: white;
+    border:white;
+    color: darkslategray;
+    font-family: Schoolbell;
+  }
+  .photos{
+    position: absolute;
+    width: 43%;
+    height: auto;
+    background-color: whitesmoke;
+    top: 36em;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-family: Schoolbell;
+    color: violet;
+    border: 5px solid darkblue;
+  }
+  .photos img{
+    width: 35%;
+    height: auto;
+    padding-bottom: 1em;
+  }
+  div.radio{
+    display: none;
+    position: absolute;
+    top: 63em;
+  }
+  div.blog-head{
+    display: inline-block;
+    position: absolute;
+    top: 62em;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    background-color: orange;
+    color: white;
+    text-align: center;
+    font-family: Schoolbell;
+    width: 70%;
+    height: auto;
+  }
+  div.blog{
+    display: inline-block;
+    position: absolute;
+    top: 68em;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+  }
+  h2{
+    margin-bottom: 0.5em;
+  }
+  p{
+    margin: 0;
+    margin-bottom: 2em;
+    padding: 0.5em;
+    color: black;
+  }
+  div.social{
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+  }
+  .social{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 20%;
+    height:6%;
+    top: 125em;
+    left: 3em;
+    text-align: center;
+    background-color: navy;
+    color: white;
+  }
+  .social h2{
+    display: none;
+  }
+  .footer{
+    position: relative;
+    top: 130em;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+  }
 }
