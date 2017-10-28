@@ -1,3 +1,6 @@
+/*Main CSS for Laptop-size Screens*/
+
+/*Header and Navbar*/
 div.head{
   display: inline-block;
   position: fixed;
@@ -31,10 +34,12 @@ div.head{
   color: blue;
   background-color: yellow;
 }
+/*Background Image*/
 body{
   background-image: url("../img/rainbow-2.jpg");
   background-repeat: no-repeat;
 }
+/*Sign-up Box*/
 .sign-up{
   width: 385px;
   height: 400px;
@@ -108,7 +113,10 @@ button{
   border:white;
   color: darkslategray;
   font-family: Schoolbell;
+  font-weight: bold;
+  font-size: 1em;
 }
+/*Class Photos*/
 .photos{
   position: absolute;
   width: 43%;
@@ -126,6 +134,7 @@ button{
   height: auto;
   padding-bottom: 1em;
 }
+/*Poll Question*/
 div.radio{
   display: inline-block;
   position: absolute;
@@ -140,6 +149,7 @@ div.radio{
   width: 385px;
   height: 170px;
 }
+/*Social Media*/
 .social{
   display: inline-block;
   position: absolute;
@@ -151,6 +161,7 @@ div.radio{
   background-color: navy;
   color: white;
 }
+/*Blog Header*/
 div.blog-head{
   display: inline-block;
   position: absolute;
@@ -166,6 +177,7 @@ div.blog-head{
   width: 62%;
   height: auto;
 }
+/*Main Blog*/
 div.blog{
   display: inline-block;
   position: absolute;
@@ -189,13 +201,13 @@ div.blog{
 }
 h2{
   margin-bottom: 0px;
-  /*line-height: 0em;*/
 }
 p{
   margin-bottom: 2em;
   padding: 0.5em;
   color: black;
 }
+/*Footer*/
 .footer{
   position: relative;
   top: 92em;
@@ -208,6 +220,7 @@ p{
 /*Small Screen View*/
 @media (min-width: 768px) and (max-width: 917px){
 
+/*Sign-up Box*/
 .sign-up{
   width: 385px;
   height: 400px;
@@ -285,6 +298,7 @@ button{
   color: darkslategray;
   font-family: Schoolbell;
 }
+/*Class Photos*/
 .photos{
   position: absolute;
   width: 43%;
@@ -305,6 +319,7 @@ button{
   height: auto;
   padding-bottom: 1em;
 }
+/*Poll Question*/
 div.radio{
   display: inline-block;
   position: absolute;
@@ -322,6 +337,7 @@ div.radio{
   left: 0;
   right: 0;
 }
+/*Blog Header*/
 div.blog-head{
   display: inline-block;
   position: absolute;
@@ -355,6 +371,7 @@ p{
   padding: 0.5em;
   color: black;
 }
+/*Social Media - moved*/
 div.social{
   margin-left: auto;
   margin-right: auto;
@@ -377,6 +394,7 @@ div.social{
 .social h2{
   display: none;
 }
+/*Footer*/
 .footer{
   position: relative;
   top: 127em;
@@ -390,6 +408,7 @@ div.social{
 /*Phone View*/
 @media (max-width: 767px){
 
+/*Sign-up Box*/
   .sign-up{
     width: 385px;
     height: 400px;
@@ -467,6 +486,7 @@ div.social{
     color: darkslategray;
     font-family: Schoolbell;
   }
+/*Class Photos*/
   .photos{
     position: absolute;
     width: 43%;
@@ -487,11 +507,13 @@ div.social{
     height: auto;
     padding-bottom: 1em;
   }
+/*Poll Question*/
   div.radio{
     display: none;
     position: absolute;
     top: 63em;
   }
+/*Blog Header*/
   div.blog-head{
     display: inline-block;
     position: absolute;
@@ -507,6 +529,7 @@ div.social{
     width: 70%;
     height: auto;
   }
+/*Main Blog*/
   div.blog{
     display: inline-block;
     position: absolute;
@@ -531,6 +554,7 @@ div.social{
     left: 0;
     right: 0;
   }
+/*Social Media*/
   .social{
     display: flex;
     flex-direction: row;
@@ -547,6 +571,7 @@ div.social{
   .social h2{
     display: none;
   }
+/*Footer*/
   .footer{
     position: relative;
     top: 130em;
