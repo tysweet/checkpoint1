@@ -301,8 +301,8 @@ button{
 /*Class Photos*/
 .photos{
   position: absolute;
-  width: 43%;
-  height: auto;
+  width: 385px;
+  height: 400px;
   background-color: whitesmoke;
   top: 36em;
   margin-left: auto;
@@ -330,8 +330,8 @@ div.radio{
   color: orangered;
   text-align: center;
   font-family: Schoolbell;
-  width: 40%;
-  height: 21%;
+  width: 43%;
+  height: 20%;
   margin-left: 12em;
   margin-right: auto;
   left: 0;
@@ -408,13 +408,24 @@ div.social{
 /*Phone View*/
 @media (max-width: 767px){
 
+/*Header*/
+  .head{
+    padding: 10px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    font-family: Schoolbell;
+    width: 90%;
+    height: 15%;
+  }
+
 /*Sign-up Box*/
   .sign-up{
     width: 385px;
     height: 400px;
     background-color: dodgerblue;
     position: absolute;
-    top: 10em;
+    top: 11em;
     margin-left: auto;
     margin-right: auto;
     left: 0;
@@ -489,10 +500,10 @@ div.social{
 /*Class Photos*/
   .photos{
     position: absolute;
-    width: 43%;
-    height: auto;
+    width: 385px;
+    height: 400px;
     background-color: whitesmoke;
-    top: 36em;
+    top: 37em;
     margin-left: auto;
     margin-right: auto;
     left: 0;
@@ -517,7 +528,7 @@ div.social{
   div.blog-head{
     display: inline-block;
     position: absolute;
-    top: 62em;
+    top: 63em;
     margin-left: auto;
     margin-right: auto;
     left: 0;
@@ -533,7 +544,7 @@ div.social{
   div.blog{
     display: inline-block;
     position: absolute;
-    top: 68em;
+    top: 69em;
     margin-left: auto;
     margin-right: auto;
     left: 0;
@@ -562,7 +573,7 @@ div.social{
     align-items: center;
     width: 20%;
     height:6%;
-    top: 125em;
+    top: 126em;
     left: 3em;
     text-align: center;
     background-color: navy;
@@ -574,7 +585,7 @@ div.social{
 /*Footer*/
   .footer{
     position: relative;
-    top: 130em;
+    top: 131em;
     right: 0;
     bottom: 0;
     left: 0;
